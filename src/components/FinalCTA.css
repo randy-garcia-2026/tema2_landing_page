@@ -1,0 +1,7 @@
+.cta { position: relative; overflow: hidden; text-align: center; padding: clamp(3rem, 7vw, 5.5rem) var(--gutter); border-radius: var(--radius-lg); border: 1px solid var(--border-strong); background: linear-gradient(160deg, rgba(109,123,255,0.18), rgba(46,230,208,0.07) 60%, rgba(255,255,255,0.02)); }
+.cta__glow { position: absolute; top: -40%; left: 50%; width: 70%; aspect-ratio: 1; translate: -50% 0; background: radial-gradient(closest-side, var(--accent-glow), transparent); filter: blur(40px); pointer-events: none; }
+.cta > *:not(.cta__glow) { position: relative; }
+.cta h2 { max-width: 20ch; margin-inline: auto; font-size: clamp(2rem, 4.6vw, 3.4rem); font-weight: 800; letter-spacing: -0.03em; text-wrap: balance; }
+.cta p { max-width: 54ch; margin: 1.2rem auto 2.2rem; color: var(--text-muted); font-size: var(--fs-lead); }
+.cta small { display: block; margin-top: 1.2rem; color: var(--text-faint); font-size: var(--fs-small); }
+@media (max-width: 480px) { .cta .btn { width: 100%; } }

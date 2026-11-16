@@ -1,0 +1,9 @@
+.section-header { max-width: 720px; margin-bottom: clamp(2.5rem, 5vw, 4rem); }
+.section-header--center { margin-inline: auto; text-align: center; }
+.section-header h2 { font-size: var(--fs-h2); font-weight: 800; text-wrap: balance; }
+.section-header p { margin-top: 1rem; color: var(--text-muted); font-size: var(--fs-lead); text-wrap: pretty; }
+.eyebrow {
+  display: inline-block; margin-bottom: 1rem; padding: 0.3rem 0.8rem;
+  font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--accent-2); background: rgba(46, 230, 208, 0.08); border: 1px solid rgba(46, 230, 208, 0.2); border-radius: 999px;
+}

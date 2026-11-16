@@ -1,0 +1,7 @@
+.quote { margin: 0; padding: clamp(1.5rem, 3vw, 2rem); display: flex; flex-direction: column; gap: 1.4rem; }
+.quote__metric { align-self: flex-start; padding: 0.3rem 0.8rem; font-size: 0.8rem; font-weight: 600; color: var(--success); background: rgba(61,220,151,0.1); border: 1px solid rgba(61,220,151,0.25); border-radius: 999px; }
+.quote blockquote { margin: 0; font-size: 1.05rem; line-height: 1.65; flex: 1; }
+.quote figcaption { display: flex; align-items: center; gap: 0.8rem; padding-top: 1.2rem; border-top: 1px solid var(--border); }
+.quote figcaption strong { display: block; font-size: 0.95rem; }
+.quote figcaption small { color: var(--text-muted); font-size: 0.82rem; }
+.quote__avatar { width: 42px; height: 42px; display: grid; place-items: center; border-radius: 50%; font-family: var(--font-display); font-weight: 800; color: #06101a; background: var(--gradient-accent); }

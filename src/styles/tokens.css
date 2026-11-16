@@ -1,0 +1,50 @@
+/* =========================================================
+   TOKENS DE DISEÑO — edita aquí para cambiar toda la web
+   ========================================================= */
+:root {
+  /* Color */
+  --bg: #070a12;
+  --bg-elevated: #0d1220;
+  --surface: rgba(255, 255, 255, 0.04);
+  --surface-hover: rgba(255, 255, 255, 0.07);
+  --border: rgba(255, 255, 255, 0.09);
+  --border-strong: rgba(255, 255, 255, 0.16);
+  --text: #f3f5fa;
+  --text-muted: #9aa3b8;
+  --text-faint: #8890a6;
+
+  --accent: #6d7bff;          /* índigo */
+  --accent-2: #2ee6d0;        /* cian/menta */
+  --accent-glow: rgba(109, 123, 255, 0.35);
+  --gradient-accent: linear-gradient(135deg, #6d7bff 0%, #2ee6d0 100%);
+  --gradient-text: linear-gradient(120deg, #aab4ff 0%, #2ee6d0 100%);
+  --success: #3ddc97;
+  --danger: #ff6b7a;
+
+  /* Tipografía */
+  --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --fs-hero: clamp(2.5rem, 6vw, 4.5rem);
+  --fs-h2: clamp(2rem, 4vw, 3rem);
+  --fs-h3: 1.25rem;
+  --fs-lead: clamp(1.05rem, 1.6vw, 1.25rem);
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+
+  /* Espaciado */
+  --section-y: clamp(4.5rem, 9vw, 8rem);  /* padding vertical de cada sección */
+  --container: 1180px;
+  --gutter: clamp(1.25rem, 4vw, 2rem);
+  --gap: 1.5rem;
+
+  /* Forma */
+  --radius-sm: 10px;
+  --radius: 18px;
+  --radius-lg: 28px;
+  --shadow-card: 0 1px 0 rgba(255,255,255,0.05) inset, 0 20px 50px -20px rgba(0,0,0,0.6);
+
+  /* Movimiento */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --t-fast: 0.18s;
+  --t: 0.35s;
+}
